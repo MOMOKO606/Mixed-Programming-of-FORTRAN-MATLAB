@@ -1,0 +1,11 @@
+FcM2plot_sin.for：有注释详细版
+plot_sin.for：无注释简易版本
+Main_fcm、ForcMat：调用模块版本， Main_fcm为主程序，ForcMat为模块程序。
+
+
+注意：
+1、engEvalString既可当function用也可以当subroutine用。
+2、一定要声明所有用到的引擎函数，可只用integer声明，也可以integer,external：：声明。
+   若没有声明引擎函数，虽然编译链接时显示没有错误，但运行程序时可能出现数组溢出等等情况。
+3、对于模块中形如subroutine startMatlab（）的子程序，调用时不用写后面的括号。
+4、模块中声明的变量（在模块中各子程序之间互相传递的变量），不能在subroutine里再次声明。 
