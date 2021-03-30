@@ -1,2 +1,2 @@
 # Mixed-Programming-of-FORTRAN-MATLAB
-Mixed Programming files of FORTRAN and MATLAB
+Demos of mixed Programming between FORTRAN and MATLAB.
